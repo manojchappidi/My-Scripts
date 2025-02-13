@@ -1,0 +1,138 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+    # Update package index
+    - name: Update apt package index
+      command: apt-get update
+      tags: update
+
+    # Install Docker
+    - name: Install Docker GPG key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Add Docker repository
+      apt_repository:
+        repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable
+        state: present
+
+    - name: Install Docker
+      apt:
+        name: docker-ce
+        state: present
+        update_cache: yes
+
+    - name: Start Docker service and enable it to start on boot
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    # Install Docker Compose
+    - name: Install Docker Compose
+      get_url:
+        url: "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-{{ ansible_system | lower }}-{{ ansible_architecture }}"
+        dest: /usr/local/bin/docker-compose
+        mode: '0755'
+
+    - name: Verify Docker Compose version
+      command: docker-compose --version
+      register: docker_compose_version_output
+    - debug:
+        msg: "{{ docker_compose_version_output.stdout }}"
+
+    # Install Python
+    - name: Install Python3 and pip3
+      apt:
+        name:
+          - python3
+          - python3-pip
+        state: present
+        update_cache: yes
+
+    # Install NGINX
+    - name: Install NGINX
+      apt:
+        name: nginx
+        state: present
+
+    - name: Start NGINX and enable it to start on boot
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    # Install Certbot
+    - name: Install Certbot
+      apt:
+        name: certbot
+        state: present
+
+    - name: Install Certbot NGINX plugin
+      apt:
+        name: python3-certbot-nginx
+        state: present
+
+    # Install Prometheus
+    - name: Install Prometheus from Docker Hub
+      docker_container:
+        name: prometheus
+        image: prom/prometheus:latest
+        state: started
+        ports:
+          - "9090:9090"
+
+    # Install Grafana
+    - name: Install Grafana from Docker Hub
+      docker_container:
+        name: grafana
+        image: grafana/grafana:latest
+        state: started
+        ports:
+          - "3000:3000"
+
+    # Display installed versions of all tools
+    - name: Display Docker version
+      command: docker --version
+      register: docker_version_output
+    - debug:
+        msg: "{{ docker_version_output.stdout }}"
+
+    - name: Display Docker Compose version
+      command: docker-compose --version
+      register: docker_compose_version_output
+    - debug:
+        msg: "{{ docker_compose_version_output.stdout }}"
+
+    - name: Display Python version
+      command: python3 --version
+      register: python_version_output
+    - debug:
+        msg: "{{ python_version_output.stdout }}"
+
+    - name: Display NGINX version
+      command: nginx -v
+      ignore_errors: yes
+      register: nginx_version_output
+    - debug:
+        msg: "{{ nginx_version_output.stderr }}"  # nginx -v sends version to stderr
+
+    - name: Display Certbot version
+      command: certbot --version
+      register: certbot_version_output
+    - debug:
+        msg: "{{ certbot_version_output.stdout }}"
+
+    - name: Display Prometheus version
+      command: docker exec prometheus /bin/prometheus --version
+      register: prometheus_version_output
+    - debug:
+        msg: "{{ prometheus_version_output.stdout }}"
+
+    - name: Display Grafana version
+      command: docker exec grafana grafana server -v
+      register: grafana_version_output
+    - debug:
+        msg: "{{ grafana_version_output.stdout }}"

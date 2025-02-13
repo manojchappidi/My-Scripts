@@ -1,0 +1,8 @@
+[Unit]
+Description=Run script on server restart, shutdown, and power on
+After=network.target
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/s60-pathflow/restart_script.sh
+[Install]
+WantedBy=multi-user.target

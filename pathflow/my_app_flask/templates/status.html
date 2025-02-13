@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .website {
+            margin-bottom: 20px;
+        }
+        .website-url {
+            font-weight: bold;
+            color: #333;
+        }
+        .status {
+            color: green;
+        }
+        .status-error {
+            color: red;
+        }
+        .response {
+            font-family: Courier, monospace;
+            white-space: pre-wrap;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Status</h1>
+    <p>Time in IST: {{ current_time }}</p>
+    {% for website, response in status.items() %}
+    <div class="website">
+        <p class="website-url">{{ website }}</p>
+        {% if "HTTP/1.1 200 OK" in response %}
+        <p class="status">UP & Running</p>
+        {% else %}
+        <p class="status-error">DOWN</p>
+        {% endif %}
+        <div class="response">{{ response }}</div>
+    </div>
+    {% endfor %}
+</body>
+</html>
