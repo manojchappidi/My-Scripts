@@ -1,0 +1,7 @@
+2025-01-17 09:08:56 - INFO - Script started
+2025-01-17 09:08:56 - INFO - Created folder: C:\Users\onwar\Desktop\PathflowDx\Archived\AI16
+2025-01-17 09:08:56 - INFO - Moved: test5.svs -> C:\Users\onwar\Desktop\PathflowDx\Archived\AI16\test5.svs
+2025-01-17 09:08:56 - INFO - Moved: test6.svs -> C:\Users\onwar\Desktop\PathflowDx\Archived\AI16\test6.svs
+2025-01-17 09:08:56 - INFO - Moved: test7.svs -> C:\Users\onwar\Desktop\PathflowDx\Archived\AI16\test7.svs
+2025-01-17 09:08:56 - INFO - Moved: test9.ndpi -> C:\Users\onwar\Desktop\PathflowDx\Archived\AI16\test9.ndpi
+2025-01-17 09:08:56 - INFO - Script completed

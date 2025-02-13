@@ -1,0 +1,50 @@
+2025-01-06 15:57:20 - 
+----------------------------------------------------------------------
+
+2025-01-06 15:57:20 - Script started at 2025-01-06 15:57:20.961678
+2025-01-06 15:57:20 - Script ended at 2025-01-06 15:57:20.962692
+2025-01-06 15:57:20 - Total duration: 0:00:00.001014
+2025-01-06 16:15:58 - 
+----------------------------------------------------------------------
+
+2025-01-06 16:15:58 - Script started at 2025-01-06 16:15:58.599839
+2025-01-06 16:15:58 - Script ended at 2025-01-06 16:15:58.599839
+2025-01-06 16:15:58 - Total duration: 0:00:00
+2025-01-06 16:16:22 - 
+----------------------------------------------------------------------
+
+2025-01-06 16:16:22 - Script started at 2025-01-06 16:16:22.851285
+2025-01-06 16:16:22 - Skipping failed or already processed file: completed
+2025-01-06 16:16:22 - Skipping failed or already processed file: processed
+2025-01-06 16:16:22 - Verified: testfile1.svs
+2025-01-06 16:16:22 - Verified: testfile2.svs
+2025-01-06 16:16:22 - Skipping failed or already processed file: verified
+2025-01-06 16:16:22 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@35.154.2.160 "mkdir -p /opt/minio/pathflowdx-dev/input/folder-1"
+2025-01-06 16:16:23 - Remote folder /opt/minio/pathflowdx-dev/input/folder-1 ensured.
+2025-01-06 16:16:23 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C:/Users/onwar/Desktop/PathflowDx/folder-1/verified/testfile1.svs ubuntu@35.154.2.160:/opt/minio/pathflowdx-dev/input/folder-1/testfile1.svs
+2025-01-06 16:16:46 - Successfully transferred C:/Users/onwar/Desktop/PathflowDx/folder-1/verified/testfile1.svs to /opt/minio/pathflowdx-dev/input/folder-1/testfile1.svs
+2025-01-06 16:16:46 - Transferred: testfile1.svs
+2025-01-06 16:16:46 - Remote folder /opt/minio/pathflowdx-dev/input/folder-1 already ensured.
+2025-01-06 16:16:46 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C:/Users/onwar/Desktop/PathflowDx/folder-1/verified/testfile2.svs ubuntu@35.154.2.160:/opt/minio/pathflowdx-dev/input/folder-1/testfile2.svs
+2025-01-06 16:17:07 - Successfully transferred C:/Users/onwar/Desktop/PathflowDx/folder-1/verified/testfile2.svs to /opt/minio/pathflowdx-dev/input/folder-1/testfile2.svs
+2025-01-06 16:17:07 - Transferred: testfile2.svs
+2025-01-06 16:17:07 - Completed: testfile1.svs
+2025-01-06 16:17:07 - Completed: testfile2.svs
+2025-01-06 16:17:07 - Skipping failed or already processed file: completed
+2025-01-06 16:17:07 - Skipping failed or already processed file: processed
+2025-01-06 16:17:07 - Verified: test5.svs
+2025-01-06 16:17:07 - Verified: test6.svs
+2025-01-06 16:17:07 - Skipping failed or already processed file: verified
+2025-01-06 16:17:07 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@35.154.2.160 "mkdir -p /opt/minio/pathflowdx-dev/input/folder-2"
+2025-01-06 16:17:07 - Remote folder /opt/minio/pathflowdx-dev/input/folder-2 ensured.
+2025-01-06 16:17:07 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C:/Users/onwar/Desktop/PathflowDx/folder-2/verified/test5.svs ubuntu@35.154.2.160:/opt/minio/pathflowdx-dev/input/folder-2/test5.svs
+2025-01-06 16:17:09 - Successfully transferred C:/Users/onwar/Desktop/PathflowDx/folder-2/verified/test5.svs to /opt/minio/pathflowdx-dev/input/folder-2/test5.svs
+2025-01-06 16:17:09 - Transferred: test5.svs
+2025-01-06 16:17:09 - Remote folder /opt/minio/pathflowdx-dev/input/folder-2 already ensured.
+2025-01-06 16:17:09 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C:/Users/onwar/Desktop/PathflowDx/folder-2/verified/test6.svs ubuntu@35.154.2.160:/opt/minio/pathflowdx-dev/input/folder-2/test6.svs
+2025-01-06 16:17:10 - Successfully transferred C:/Users/onwar/Desktop/PathflowDx/folder-2/verified/test6.svs to /opt/minio/pathflowdx-dev/input/folder-2/test6.svs
+2025-01-06 16:17:10 - Transferred: test6.svs
+2025-01-06 16:17:10 - Completed: test5.svs
+2025-01-06 16:17:10 - Completed: test6.svs
+2025-01-06 16:17:10 - Script ended at 2025-01-06 16:17:10.826728
+2025-01-06 16:17:10 - Total duration: 0:00:47.975443

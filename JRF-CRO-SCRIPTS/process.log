@@ -1,0 +1,203 @@
+2025-01-17 09:04:16 - 
+----------------------------------------------------------------------
+
+2025-01-17 09:04:16 - Script started at 2025-01-17 09:04:16.616316
+2025-01-17 09:04:16 - Skipping failed or already processed file: completed
+2025-01-17 09:04:16 - Skipping failed or already processed file: processed
+2025-01-17 09:04:16 - Verified: test5.svs
+2025-01-17 09:04:16 - Verified: test6.svs
+2025-01-17 09:04:16 - Verified: test7.svs
+2025-01-17 09:04:16 - Verified: test9.ndpi
+2025-01-17 09:04:16 - Skipping failed or already processed file: verified
+2025-01-17 09:04:16 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/AI16"
+2025-01-17 09:04:18 - Remote folder /mnt/minio/pathflowdx-dev/JRF/AI16 ensured.
+2025-01-17 09:04:18 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/AI16/verified/test5.svs ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/AI16/test5.svs
+2025-01-17 09:04:19 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/AI16/verified/test5.svs to /mnt/minio/pathflowdx-dev/JRF/AI16/test5.svs
+2025-01-17 09:04:19 - Transferred: test5.svs
+2025-01-17 09:04:19 - Remote folder /mnt/minio/pathflowdx-dev/JRF/AI16 already ensured.
+2025-01-17 09:04:19 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/AI16/verified/test6.svs ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/AI16/test6.svs
+2025-01-17 09:04:21 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/AI16/verified/test6.svs to /mnt/minio/pathflowdx-dev/JRF/AI16/test6.svs
+2025-01-17 09:04:21 - Transferred: test6.svs
+2025-01-17 09:04:21 - Remote folder /mnt/minio/pathflowdx-dev/JRF/AI16 already ensured.
+2025-01-17 09:04:21 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/AI16/verified/test7.svs ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/AI16/test7.svs
+2025-01-17 09:04:23 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/AI16/verified/test7.svs to /mnt/minio/pathflowdx-dev/JRF/AI16/test7.svs
+2025-01-17 09:04:23 - Transferred: test7.svs
+2025-01-17 09:04:23 - Remote folder /mnt/minio/pathflowdx-dev/JRF/AI16 already ensured.
+2025-01-17 09:04:23 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/AI16/verified/test9.ndpi ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/AI16/test9.ndpi
+2025-01-17 09:04:26 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/AI16/verified/test9.ndpi to /mnt/minio/pathflowdx-dev/JRF/AI16/test9.ndpi
+2025-01-17 09:04:26 - Transferred: test9.ndpi
+2025-01-17 09:04:26 - Completed: test5.svs
+2025-01-17 09:04:26 - Completed: test6.svs
+2025-01-17 09:04:26 - Completed: test7.svs
+2025-01-17 09:04:26 - Completed: test9.ndpi
+2025-01-17 09:04:26 - Script ended at 2025-01-17 09:04:26.677255
+2025-01-17 09:04:26 - Total duration: 0:00:10.060939
+2025-01-20 13:16:54 - 
+----------------------------------------------------------------------
+
+2025-01-20 13:16:54 - Script started at 2025-01-20 13:16:54.459212
+2025-01-20 13:16:54 - Skipping failed or already processed file: completed
+2025-01-20 13:16:54 - Skipping failed or already processed file: processed
+2025-01-20 13:16:54 - Skipping failed or already processed file: verified
+2025-01-20 13:16:54 - Script ended at 2025-01-20 13:16:54.459212
+2025-01-20 13:16:54 - Total duration: 0:00:00
+2025-01-23 18:59:51 - 
+----------------------------------------------------------------------
+
+2025-01-23 18:59:51 - Script started at 2025-01-23 18:59:51.283543
+2025-01-23 18:59:51 - Skipping failed or already processed file: completed
+2025-01-23 18:59:51 - Skipping failed or already processed file: processed
+2025-01-23 18:59:51 - Verified: test5.svs
+2025-01-23 18:59:51 - Verified: test6.svs
+2025-01-23 18:59:51 - Verified: test7.svs
+2025-01-23 18:59:51 - Verified: test9.ndpi
+2025-01-23 18:59:51 - Skipping failed or already processed file: verified
+2025-01-23 18:59:51 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 18:59:52 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:52 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:52 - Copy failed: test5.svs renamed to test5-processed-failed.svs
+2025-01-23 18:59:52 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 18:59:53 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:53 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:53 - Copy failed: test6.svs renamed to test6-processed-failed.svs
+2025-01-23 18:59:53 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 18:59:53 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:53 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:53 - Copy failed: test7.svs renamed to test7-processed-failed.svs
+2025-01-23 18:59:53 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 18:59:54 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:54 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 18:59:54 - Copy failed: test9.ndpi renamed to test9-processed-failed.ndpi
+2025-01-23 18:59:54 - Script ended at 2025-01-23 18:59:54.226684
+2025-01-23 18:59:54 - Total duration: 0:00:02.943141
+2025-01-23 19:00:03 - 
+----------------------------------------------------------------------
+
+2025-01-23 19:00:03 - Script started at 2025-01-23 19:00:03.543953
+2025-01-23 19:00:03 - Skipping failed or already processed file: completed
+2025-01-23 19:00:03 - Skipping failed or already processed file: processed
+2025-01-23 19:00:03 - Skipping failed or already processed file: test5-processed-failed.svs
+2025-01-23 19:00:03 - Skipping failed or already processed file: test6-processed-failed.svs
+2025-01-23 19:00:03 - Skipping failed or already processed file: test7-processed-failed.svs
+2025-01-23 19:00:03 - Skipping failed or already processed file: test9-processed-failed.ndpi
+2025-01-23 19:00:03 - Skipping failed or already processed file: verified
+2025-01-23 19:00:03 - Script ended at 2025-01-23 19:00:03.545967
+2025-01-23 19:00:03 - Total duration: 0:00:00.002014
+2025-01-23 19:01:01 - 
+----------------------------------------------------------------------
+
+2025-01-23 19:01:01 - Script started at 2025-01-23 19:01:01.789060
+2025-01-23 19:01:01 - Skipping failed or already processed file: completed
+2025-01-23 19:01:01 - Skipping failed or already processed file: processed
+2025-01-23 19:01:01 - Verified: test5.svs
+2025-01-23 19:01:01 - Verified: test6.svs
+2025-01-23 19:01:01 - Verified: test7.svs
+2025-01-23 19:01:01 - Verified: test9.ndpi
+2025-01-23 19:01:01 - Skipping failed or already processed file: verified
+2025-01-23 19:01:01 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:02 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:02 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:02 - Copy failed: test5.svs renamed to test5-processed-failed.svs
+2025-01-23 19:01:02 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:03 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:03 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:03 - Copy failed: test6.svs renamed to test6-processed-failed.svs
+2025-01-23 19:01:03 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:04 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:04 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:04 - Copy failed: test7.svs renamed to test7-processed-failed.svs
+2025-01-23 19:01:04 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:04 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:04 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:04 - Copy failed: test9.ndpi renamed to test9-processed-failed.ndpi
+2025-01-23 19:01:04 - Script ended at 2025-01-23 19:01:04.616263
+2025-01-23 19:01:04 - Total duration: 0:00:02.827203
+2025-01-23 19:01:17 - 
+----------------------------------------------------------------------
+
+2025-01-23 19:01:17 - Script started at 2025-01-23 19:01:17.907886
+2025-01-23 19:01:17 - Skipping failed or already processed file: completed
+2025-01-23 19:01:17 - Skipping failed or already processed file: processed
+2025-01-23 19:01:17 - Skipping failed or already processed file: test5-processed-failed.svs
+2025-01-23 19:01:17 - Skipping failed or already processed file: test6-processed-failed.svs
+2025-01-23 19:01:17 - Skipping failed or already processed file: test7-processed-failed.svs
+2025-01-23 19:01:17 - Skipping failed or already processed file: test9-processed-failed.ndpi
+2025-01-23 19:01:17 - Skipping failed or already processed file: verified
+2025-01-23 19:01:17 - Script ended at 2025-01-23 19:01:17.911434
+2025-01-23 19:01:17 - Total duration: 0:00:00.003548
+2025-01-23 19:01:51 - 
+----------------------------------------------------------------------
+
+2025-01-23 19:01:51 - Script started at 2025-01-23 19:01:51.929892
+2025-01-23 19:01:51 - Skipping failed or already processed file: completed
+2025-01-23 19:01:51 - Skipping failed or already processed file: processed
+2025-01-23 19:01:51 - Verified: TEST-2_image10.ndpi
+2025-01-23 19:01:51 - Verified: TEST-2_image8.ndpi
+2025-01-23 19:01:51 - Verified: TEST-2_image9.ndpi
+2025-01-23 19:01:51 - Skipping failed or already processed file: verified
+2025-01-23 19:01:51 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:52 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:52 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:52 - Copy failed: TEST-2_image10.ndpi renamed to TEST-2_image10-processed-failed.ndpi
+2025-01-23 19:01:52 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:53 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:53 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:53 - Copy failed: TEST-2_image8.ndpi renamed to TEST-2_image8-processed-failed.ndpi
+2025-01-23 19:01:53 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:01:53 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:53 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:01:53 - Copy failed: TEST-2_image9.ndpi renamed to TEST-2_image9-processed-failed.ndpi
+2025-01-23 19:01:53 - Script ended at 2025-01-23 19:01:53.682034
+2025-01-23 19:01:53 - Total duration: 0:00:01.752142
+2025-01-23 19:03:17 - 
+----------------------------------------------------------------------
+
+2025-01-23 19:03:17 - Script started at 2025-01-23 19:03:17.495697
+2025-01-23 19:03:17 - Skipping failed or already processed file: completed
+2025-01-23 19:03:17 - Skipping failed or already processed file: processed
+2025-01-23 19:03:17 - Verified: TEST1_image10.ndpi
+2025-01-23 19:03:17 - Verified: TEST1_image8.ndpi
+2025-01-23 19:03:17 - Verified: TEST1_image9.ndpi
+2025-01-23 19:03:17 - Skipping failed or already processed file: verified
+2025-01-23 19:03:17 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:03:18 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:03:18 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:03:18 - Copy failed: TEST1_image10.ndpi renamed to TEST1_image10-processed-failed.ndpi
+2025-01-23 19:03:18 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:03:19 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:03:19 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:03:19 - Copy failed: TEST1_image8.ndpi renamed to TEST1_image8-processed-failed.ndpi
+2025-01-23 19:03:19 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:03:19 - Failed to create remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:03:19 - Cannot proceed without the remote folder: /mnt/minio/pathflowdx-dev/JRF/TEST1
+2025-01-23 19:03:19 - Copy failed: TEST1_image9.ndpi renamed to TEST1_image9-processed-failed.ndpi
+2025-01-23 19:03:19 - Script ended at 2025-01-23 19:03:19.757901
+2025-01-23 19:03:19 - Total duration: 0:00:02.262204
+2025-01-23 19:05:10 - 
+----------------------------------------------------------------------
+
+2025-01-23 19:05:10 - Script started at 2025-01-23 19:05:10.923175
+2025-01-23 19:05:10 - Skipping failed or already processed file: completed
+2025-01-23 19:05:10 - Skipping failed or already processed file: processed
+2025-01-23 19:05:10 - Verified: TEST-2_image10.ndpi
+2025-01-23 19:05:10 - Verified: TEST-2_image8.ndpi
+2025-01-23 19:05:10 - Verified: TEST-2_image9.ndpi
+2025-01-23 19:05:10 - Skipping failed or already processed file: verified
+2025-01-23 19:05:10 - Creating remote folder with command: ssh -i C:/Users/onwar/.ssh/id_rsa ubuntu@13.203.152.86 "mkdir -p /mnt/minio/pathflowdx-dev/JRF/TEST1"
+2025-01-23 19:05:11 - Remote folder /mnt/minio/pathflowdx-dev/JRF/TEST1 ensured.
+2025-01-23 19:05:11 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/TEST1/verified/TEST-2_image10.ndpi ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/TEST1/TEST-2_image10.ndpi
+2025-01-23 19:05:47 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/TEST1/verified/TEST-2_image10.ndpi to /mnt/minio/pathflowdx-dev/JRF/TEST1/TEST-2_image10.ndpi
+2025-01-23 19:05:47 - Transferred: TEST-2_image10.ndpi
+2025-01-23 19:05:47 - Remote folder /mnt/minio/pathflowdx-dev/JRF/TEST1 already ensured.
+2025-01-23 19:05:47 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/TEST1/verified/TEST-2_image8.ndpi ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/TEST1/TEST-2_image8.ndpi
+2025-01-23 19:06:22 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/TEST1/verified/TEST-2_image8.ndpi to /mnt/minio/pathflowdx-dev/JRF/TEST1/TEST-2_image8.ndpi
+2025-01-23 19:06:22 - Transferred: TEST-2_image8.ndpi
+2025-01-23 19:06:22 - Remote folder /mnt/minio/pathflowdx-dev/JRF/TEST1 already ensured.
+2025-01-23 19:06:22 - Running SCP command: scp -i C:/Users/onwar/.ssh/id_rsa C://Users//onwar//Desktop//PathflowDX/TEST1/verified/TEST-2_image9.ndpi ubuntu@13.203.152.86:/mnt/minio/pathflowdx-dev/JRF/TEST1/TEST-2_image9.ndpi
+2025-01-23 19:07:00 - Successfully transferred C://Users//onwar//Desktop//PathflowDX/TEST1/verified/TEST-2_image9.ndpi to /mnt/minio/pathflowdx-dev/JRF/TEST1/TEST-2_image9.ndpi
+2025-01-23 19:07:00 - Transferred: TEST-2_image9.ndpi
+2025-01-23 19:07:00 - Completed: TEST-2_image10.ndpi
+2025-01-23 19:07:00 - Completed: TEST-2_image8.ndpi
+2025-01-23 19:07:00 - Completed: TEST-2_image9.ndpi
+2025-01-23 19:07:00 - Script ended at 2025-01-23 19:07:00.543610
+2025-01-23 19:07:00 - Total duration: 0:01:49.620435
